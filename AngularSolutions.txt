@@ -1,4 +1,5 @@
 1: ErrorName :: opensslErrorStack: error:03000086:digital envelope routines::initialization error
+Snap: https://drive.google.com/file/d/1cRXrJ6CDh9KjzuLWe2KwX0hHxZ3VvKNj/view?usp=share_link
 ------------------------------------------------------------------------------------------------------------------------
 Solution: 
 "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve -o",
