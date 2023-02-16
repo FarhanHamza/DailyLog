@@ -1,0 +1,11 @@
+
+1 Chrome
+2 visual studio
+3 visual studio code
+4 Git bash
+5 node.js
+6 notepad++
+7 winrar
+8 SQL server
+9 DataGrip
+10
