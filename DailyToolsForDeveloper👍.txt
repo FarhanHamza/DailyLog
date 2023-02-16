@@ -8,4 +8,4 @@
 7 winrar
 8 SQL server
 9 DataGrip
-10
+10 LigtShot
