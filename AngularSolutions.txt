@@ -4,10 +4,21 @@ Snap: https://drive.google.com/file/d/1cRXrJ6CDh9KjzuLWe2KwX0hHxZ3VvKNj/view?usp
 Solution: 
 "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve -o",
 
-2: ErrorName :: 
+2: ErrorName :: Show Minlength + Max + required Validation
 ------------------------------------------------------------------------------------------------------------------------
 Solution: 
-
+        <div class="mb-3 col-lg-12">
+            <label for="FormControlNewPassInput" class="form-label">create a password</label>
+            <input type="password" class="form-control" id="FormControlNewPassInput" formControlName="password"
+                placeholder="Create a password">
+            <div class="text-danger" *ngIf="isRequiredField(formControls['password'])">
+                This field is required.
+            </div>
+            <div class="text-danger" *ngIf="isValidLength(formControls['password'])">
+                Minimum {{formControls['password']?.errors?.['minlength'].requiredLength}} characters required.
+                <!-- Minimum length Issuee -->
+            </div>
+        </div>
 
 3: ErrorName :: 
 ------------------------------------------------------------------------------------------------------------------------
