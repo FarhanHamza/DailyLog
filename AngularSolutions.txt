@@ -20,9 +20,10 @@ Solution:
             </div>
         </div>
 
-3: ErrorName :: 
+3: ErrorName :: Open Project On Random Ports 
 ------------------------------------------------------------------------------------------------------------------------
 Solution: 
+ng serve --port 0 --open 
 
 
 
