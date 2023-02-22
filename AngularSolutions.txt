@@ -25,6 +25,12 @@ Solution:
 Solution: 
 ng serve --port 0 --open 
 
+4: ErrorName :: More than one module matches. Use the '--skip-import' option to skip importing the component into the closest module or use the module option to specify a module.
+------------------------------------------------------------------------------------------------------------------------
+Solution: 
+ng g c SuperHero --module=app.module
+
+
 
 
 
