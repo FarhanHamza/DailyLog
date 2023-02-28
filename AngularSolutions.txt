@@ -2,6 +2,7 @@
 Snap: https://drive.google.com/file/d/1cRXrJ6CDh9KjzuLWe2KwX0hHxZ3VvKNj/view?usp=share_link
 ------------------------------------------------------------------------------------------------------------------------
 Solution: 
+In package.json, under script section add this.
 "start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve -o",
 
 2: ErrorName :: Show Minlength + Max + required Validation
