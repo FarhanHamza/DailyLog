@@ -1,11 +1,12 @@
 
 1 Chrome
-2 visual studio
-3 visual studio code
+2 winrar
+3 visual code  
 4 Git bash
 5 node.js
 6 notepad++
-7 winrar
+7 visual studio code 
 8 SQL server
 9 DataGrip
-10 LigtShot
+11 Postman
+12 LigtShot
