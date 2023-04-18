@@ -2,8 +2,8 @@
 1 Chrome
 2 winrar
 3 visual code  
-4 Git bash
-5 node.js
+4 Git bash	| winget install --id Git.Git -e --source winget
+5 node.js	| winget install OpenJS.NodeJS.LTS
 6 notepad++
 7 visual studio code 
 8 SQL server
