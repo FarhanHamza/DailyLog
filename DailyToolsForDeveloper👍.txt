@@ -10,3 +10,6 @@
 9 DataGrip
 11 Postman
 12 LigtShot
+13 Microsoft.PowerToys is Microsoft App that useful for text extracting from image, Browser anywhere. searching, keyboard shortcut setting etc.
+to install using CMD:
+   winget install Microsoft.PowerToys --source winget
