@@ -1,1 +1,17 @@
 This is the content of the file.
+---------------------------------
+Ajax request SweetAlert2 Loader
+---------------------------------
+// start loading 
+Swal.fire({
+      title: 'Uploading...',
+      html: 'Please wait...',
+      allowEscapeKey: false,
+      allowOutsideClick: false,
+      didOpen: () => {
+          Swal.showLoading()
+      }
+  });
+
+// close
+Swal.close();
