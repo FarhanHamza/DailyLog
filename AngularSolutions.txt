@@ -1,3 +1,15 @@
+********** By Angular.io *************
+install Angular Globally:
+-> npm install -g @angular/cli
+
+To enable PowerShell Script: 
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+*********************************************
+0- enable Script in VSCode terminal;
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+------------------------------------
 1: ErrorName :: opensslErrorStack: error:03000086:digital envelope routines::initialization error
 Snap: https://drive.google.com/file/d/1cRXrJ6CDh9KjzuLWe2KwX0hHxZ3VvKNj/view?usp=share_link
 ------------------------------------------------------------------------------------------------------------------------
