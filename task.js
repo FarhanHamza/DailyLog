@@ -11,3 +11,31 @@ Add in Style array:
    "node_modules/ng-zorro-antd/code-editor/style/index.min.css",
    "node_modules/ng-zorro-antd/graph/style/index.min.css"
 ]
+
+// ---- moment.js DATE Difference
+
+// Get the current date
+var currentDate = moment();
+
+// Get the created date (replace "2023-07-28T12:20:29.587" with your actual created date)
+var createdDate = moment("2023-07-28T12:20:29.587");
+
+// Calculate the difference between the current date and the created date in days
+var differenceInDays = currentDate.diff(createdDate, 'days');
+
+// Define the thresholds for grouping
+var thresholds = [
+    { threshold: 365, label: 'year' },
+    { threshold: 30, label: 'month' }
+];
+
+// Find the appropriate group
+var group = thresholds.find(t => differenceInDays >= t.threshold);
+
+// Format the difference
+var formattedDifference = group ? Math.floor(differenceInDays / group.threshold) + ' ' + group.label + (Math.floor(differenceInDays / group.threshold) > 1 ? 's' : '') : differenceInDays + ' days';
+
+// Output the formatted difference
+console.log(formattedDifference);
+
+// ---- moment.js DATE Difference end
