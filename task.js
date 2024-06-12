@@ -39,3 +39,18 @@ var formattedDifference = group ? Math.floor(differenceInDays / group.threshold)
 console.log(formattedDifference);
 
 // ---- moment.js DATE Difference end
+
+//#  12-Jun-24
+ // Get Input field value using SweetAlert2
+ const { value: newMenuName } = await Swal.fire({
+     title: "Enter new Menu",
+     input: "text",
+     inputLabel: "Menu Name",
+     inputValue: "",
+     showCancelButton: true,
+     inputValidator: (value) => {
+         if (!value) {
+             return "You need to write something!";
+         }
+     }
+ });
