@@ -18,6 +18,22 @@ Swal.close();
 
 
 
+// Get input field value using SweetAlert2
+ const { value: newMenuName } = await Swal.fire({
+     title: "Enter new Menu",
+     input: "text",
+     inputLabel: "Menu Name",
+     inputValue: "",
+     showCancelButton: true,
+     inputValidator: (value) => {
+         if (!value) {
+             return "You need to write something!";
+         }
+     }
+ });
+
+
+
 -JS Console.
 console.log('%c hello world ', 'background: #222; color: #bada55')
 
